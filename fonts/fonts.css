@@ -5,10 +5,11 @@
     url(./Raleway-Regular.woff) format('woff');
   font-weight: normal;
   font-display: swap;
+  font-weight: 400;
 }
 
 @font-face {
-  font-family: Raleway;
+  font-family: Raleway-Bold;
   src:
     url(./Raleway-Bold.woff2) format('woff2'),
     url(./Raleway-Bold.woff) format('woff');

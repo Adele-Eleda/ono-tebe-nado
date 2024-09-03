@@ -1,1 +1,206 @@
-/* место для вашего кода */
+.header {
+  background-color: #ffff;
+  padding: 92px 24px 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__links-list {
+ display: flex;
+ align-items: center;
+ justify-content: flex-end;
+ list-style: circle;
+ gap: 10px 33px;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
+.header__links-list-item_no-bullit {
+ list-style: none;
+}
+
+.header__menu {
+  width: 392px;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.header__logo {
+  margin-left: 36px;
+  margin-right: 184px;
+}
+
+.header__logo-image {
+ width: 148px;
+ height: 105px;
+}
+
+.address {
+  width: 240px;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.address_a {
+  list-style: none;
+  size: 18px;
+  line-height: 24.3px;
+  letter-spacing: 1%;
+}
+
+.address_link {
+  line-height: 24.3px;
+}
+
+.overlay {
+  background-color: rgb(0 0 0/0.6);
+}
+
+.cover {
+  display: grid;
+  place-items: center;
+  height: 757px;
+  width: 1100px;
+  background-image: url('../images/cover.jpg');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  
+  
+}
+
+.cover__description {
+  color: white;
+  display: flex;
+}
+
+.overlay {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6); 
+  z-index: 1;
+}
+
+.cover__title{
+  font-family: Raleway-Bold;
+  color: white;
+  font-size: 100px;
+  /*font-weight: 900;*/
+  line-height: 123px;
+  position: absolute;
+  text-transform: uppercase;
+  z-index: 2;
+  height: 355px;
+  width: 1000px;
+  /*margin: 165px 50px 237px 50px;*/
+  margin-bottom: 100px;
+  position: relative;
+  top: 88px;
+    
+}
+
+.aligned-text {
+  display: block;
+  letter-spacing: 0.3em;
+  line-height: 110px;
+  margin-top: 15px;
+
+}
+
+.aligned-text_center {
+  display: block;
+  letter-spacing: 0.3em;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.aligned-text_right {
+  display: block;
+  letter-spacing: 0.3em;
+  text-align: right;
+  
+}
+
+.no-letter-spacing {
+  letter-spacing: 0em;
+}
+
+.letter-spacing-extended {
+ letter-spacing:  0.6em;
+}
+
+.cover__description {
+  color: white;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  font-family: Raleway;
+  text-transform: uppercase;
+  font-size: 22px;
+  margin-left: 30px;
+  top: 9px;
+  
+}
+
+.cover__description-text {
+  word-spacing: 0.8em;
+  margin-right: 79px;
+  font-weight: 400;
+}
+
+.bet-button {
+  color: white;
+  border-color: white;
+	background: transparent;
+  height: 51px;
+  width: 256px;
+  font-size: 22px;
+  text-transform: uppercase;
+  position: relative;
+	
+}
+
+.lots {
+  display: flex;
+  flex-wrap: wrap;
+  height: 692px;
+  width: 1052px;
+}
+
+/*.lots__heading {
+  margin: 179px 915px 27px 64px;
+}*/
+
+.card {
+  background-color: pink;
+  border: 1px solid;
+  border-radius: 8px;
+  height: 563px;
+  width: 334px;
+  margin-top: 220px;
+  margin-left: 24px;
+  
+  
+}
+
+.lots__card-list {
+  list-style: none;
+  display: flex;
+  /*gap: 1px;*/
+  color: #ffff;
+  
+}
+
+.card-link {
+  text-decoration: none;
+}
