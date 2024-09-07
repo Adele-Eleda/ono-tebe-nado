@@ -12,6 +12,7 @@
  justify-content: flex-end;
  list-style: circle;
  gap: 10px 33px;
+ text-underline-offset: 5px;
 }
 
 .header__link_active {
@@ -44,6 +45,7 @@
   font-family: Raleway;
   font-weight: 400;
   font-size: 18px;
+  text-underline-offset: 5px;
 }
 
 .address_a {
@@ -66,7 +68,7 @@
   place-items: center;
   height: 757px;
   width: 1100px;
-  background-image: url('../images/cover.jpg');
+  background-image: url("../images/cover.jpg");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -94,14 +96,12 @@
   font-family: Raleway-Bold;
   color: white;
   font-size: 100px;
-  /*font-weight: 900;*/
   line-height: 123px;
   position: absolute;
   text-transform: uppercase;
   z-index: 2;
   height: 355px;
   width: 1000px;
-  /*margin: 165px 50px 237px 50px;*/
   margin-bottom: 100px;
   position: relative;
   top: 88px;
@@ -175,32 +175,182 @@
   flex-wrap: wrap;
   height: 692px;
   width: 1052px;
+  margin-top: 179px;
 }
 
-/*.lots__heading {
-  margin: 179px 915px 27px 64px;
-}*/
+.lots__heading {
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: Raleway-Bold;
+  margin-left: 64px;
+}
+
 
 .card {
-  background-color: pink;
-  border: 1px solid;
-  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
   height: 563px;
   width: 334px;
-  margin-top: 220px;
   margin-left: 24px;
-  
-  
+  margin-bottom: 36px;
+   
 }
 
 .lots__card-list {
   list-style: none;
   display: flex;
-  /*gap: 1px;*/
   color: #ffff;
+  
   
 }
 
 .card-link {
   text-decoration: none;
+}
+
+.card__title {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 51px;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: Raleway-Bold;
+  text-decoration: underline;
+  text-transform: uppercase;
+  z-index: 2;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+.card__text {
+  font-size: 20px;
+  font-weight: 400;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: auto;
+  margin-bottom: 48px;
+  z-index: 3;
+}
+
+.card_type_film {
+  background-image: url("../images/card-lot-01.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.card_type_book {
+  background-image: url("../images/card-lot-02.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.card_type_picture {
+  background-image: url("../images/card-lot-03.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.lots__look-more-link {
+  position: absolute;
+  margin-top: 664px;
+  margin-left: 64px;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 20px;
+  text-underline-offset: 5px;
+}
+
+.about {
+  width: 1052px;
+  height: 595px;
+  margin-top: 146px;
+  margin-left: 24px;
+  margin-right: 24px;
+  
+}
+
+.about__column{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+}
+
+.about__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px; 
+  height: 240px; 
+  background-color: black; 
+  border-radius: 50%; 
+  margin-left: 47px;
+  margin-top: 30px;
+}
+
+.about__logo-image {
+  height: 114px;
+  width: 148px;
+}
+
+.about__us {
+  margin-left: 50px;
+}
+
+.about__title {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: Raleway-Bold;
+  margin-top: 130px;
+}
+
+.about__text {
+  font-size: 20px;
+  font-family: Raleway;
+  margin-top: 100px;
+  width: 693px;
+  line-height: 24px;
+  /*letter-spacing: 4%;*/
+}
+
+.about__text_1 {
+  margin-top: 24px;
+}
+
+.footer {
+  width: 1000px;
+  height: 98px;
+  margin: 180px 50px 88px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__menu{
+  font-size: 18px;
+}
+
+.footer__menu-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
+.footer__social-list {
+  list-style: none;
+  display: flex;
+  gap: 48px;
+  
+}
+
+.footer__social-icon {
+  width: 48px; 
+  height: 48px; 
 }
