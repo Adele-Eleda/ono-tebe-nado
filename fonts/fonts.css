@@ -15,4 +15,5 @@
     url(./Raleway-Bold.woff) format('woff');
   font-weight: bold;
   font-display: swap;
+  font-weight: 700;
 }

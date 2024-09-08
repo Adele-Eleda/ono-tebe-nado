@@ -42,7 +42,7 @@
 
 .address {
   width: 240px;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 18px;
   text-underline-offset: 5px;
@@ -93,7 +93,7 @@
 }
 
 .cover__title{
-  font-family: Raleway-Bold;
+  font-family: Raleway-Bold, sans-serif;
   color: white;
   font-size: 100px;
   line-height: 123px;
@@ -144,7 +144,7 @@
   align-items: center;
   position: relative;
   z-index: 1;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   text-transform: uppercase;
   font-size: 22px;
   margin-left: 30px;
@@ -182,7 +182,7 @@
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
-  font-family: Raleway-Bold;
+  font-family: Raleway-Bold, sans-serif;
   margin-left: 64px;
 }
 
@@ -215,7 +215,7 @@
   padding-top: 51px;
   font-size: 22px;
   font-weight: 700;
-  font-family: Raleway-Bold;
+  font-family: Raleway-Bold, sans-serif;
   text-decoration: underline;
   text-transform: uppercase;
   z-index: 2;
@@ -258,7 +258,7 @@
   position: absolute;
   margin-top: 664px;
   margin-left: 64px;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 20px;
   text-underline-offset: 5px;
@@ -303,17 +303,17 @@
 .about__title {
   text-transform: uppercase;
   font-size: 40px;
-  font-family: Raleway-Bold;
+  font-family: Raleway-Bold, sans-serif;
   margin-top: 130px;
 }
 
 .about__text {
   font-size: 20px;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   margin-top: 100px;
   width: 693px;
   line-height: 24px;
-  /*letter-spacing: 4%;*/
+
 }
 
 .about__text_1 {
