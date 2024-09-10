@@ -78,7 +78,6 @@
 }
 
 .overlay {
-  /*content: '';*/
   position: absolute;
   top: 0;
   left: 0;
@@ -135,7 +134,7 @@
   display: flex;
   align-items: center;
   position: relative;
-  z-index: 1;
+  z-index: 2;
   font-family: Raleway, sans-serif;
   text-transform: uppercase;
   font-size: 22px;
@@ -202,7 +201,7 @@
   font-family: Raleway-Bold, sans-serif;
   text-decoration: underline;
   text-transform: uppercase;
-  z-index: 2;
+  z-index: 3;
   text-underline-offset: 3px;
   text-decoration-thickness: 1px;
 }
@@ -213,7 +212,7 @@
   padding-right: 40px;
   margin-top: auto;
   margin-bottom: 48px;
-  z-index: 3;
+  z-index: 4;
 }
 
 .card_type_film {
@@ -291,7 +290,7 @@
 .about__text {
   font-size: 20px;
   font-family: Raleway, sans-serif;
-  margin-top: 100px;
+  margin-top: 105px;
   width: 693px;
   line-height: 24px;
 }
