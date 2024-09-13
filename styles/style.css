@@ -62,7 +62,6 @@
   background-position: center;
   background-size: cover;
   position: relative;
-  /*padding-top: 60px;*/
   padding-top: 165px;
   padding-bottom: 50px;
 }
@@ -87,10 +86,6 @@
   z-index: 2;
   width: 1000px;
   margin-bottom: 100px;
-  /*position: relative;
-  top: 88px;*/
-  /*margin-top: 88px;*/
-  /*padding-top: 100px;*/
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 115px 100px 100px;
@@ -103,18 +98,13 @@
 }
 
 .aligned-text {
-  /*display: block;*/
   line-height: 110px;
-  /*margin-top: 15px;*/
   display: block;
   grid-column-start: 1;
   grid-column-end: span 2;
 }
 
 .aligned-text_center {
-  /*display: block;*/
-  /*text-align: center;*/
-  /*margin-top: 10px;*/
   display: block;
   grid-column-start: 2;
   grid-column-end: span 3;
@@ -123,8 +113,6 @@
 }
 
 .aligned-text_right {
-  /*display: block;*/
-  /*text-align: right;*/
   display: block;
   grid-column-start: 4;
   grid-column-end: span 2;
@@ -151,8 +139,6 @@
   text-transform: uppercase;
   font-size: 22px;
   margin-left: 30px;
-  /*margin-top: 110px;*/
-  /*margin-top: 240px;*/
   padding-top: 20px;
   padding-left: 5px;
 
