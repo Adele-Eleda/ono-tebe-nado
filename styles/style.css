@@ -47,7 +47,6 @@
   text-underline-offset: 3px;
   list-style: none; 
   line-height: 24.3px;
-  letter-spacing: 1%;
 }
 
 .address_link {
@@ -142,10 +141,6 @@
   padding-top: 20px;
   padding-left: 5px;
 
-}
-
-.bet-button {
-  display: inline-block;
 }
 
 .cover__description-text {
